@@ -1,5 +1,51 @@
 (kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 69b34976-047e-478e-bd76-9b6ef0dba356)
+
   (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 20.32 21.59) (size 62.23 39.37) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 0e58b9bb-7a32-4563-ae50-f5e325ba8348)
+    (property "Sheetname" "PWR IN" (at 20.32 20.8784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "alimentacio.kicad_sch" (at 20.32 61.5446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Campo2" "" (at 20.32 21.59 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "DIJOUS_4_PORTES"
+        (path "/69b34976-047e-478e-bd76-9b6ef0dba356" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 97.79 21.59) (size 88.9 39.37) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 6b83d062-cc2b-4223-9dc9-bddc64623104)
+    (property "Sheetname" "DIGITAL" (at 97.79 20.8784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "digital.kicad_sch" (at 97.79 61.5446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "DIJOUS_4_PORTES"
+        (path "/69b34976-047e-478e-bd76-9b6ef0dba356" (page "3"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
 )
