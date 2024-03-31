@@ -28,6 +28,26 @@
     )
   )
 
+  (sheet (at 201.93 21.59) (size 74.93 38.1) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 1c250547-8c37-4478-9ce5-99247889367f)
+    (property "Sheetname" "MOTORS" (at 201.93 20.8784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "motors.kicad_sch" (at 201.93 60.2746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Campo2" "" (at 201.93 21.59 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "DIJOUS_4_PORTES"
+        (path "/69b34976-047e-478e-bd76-9b6ef0dba356" (page "4"))
+      )
+    )
+  )
+
   (sheet (at 97.79 21.59) (size 88.9 39.37) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
@@ -41,6 +61,26 @@
     (instances
       (project "DIJOUS_4_PORTES"
         (path "/69b34976-047e-478e-bd76-9b6ef0dba356" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 100.33 87.63) (size 85.09 50.8) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid fdf6052c-ad47-4c6f-9048-46dd6e59245d)
+    (property "Sheetname" "OUTPUTS" (at 100.33 86.9184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "outputs.kicad_sch" (at 100.33 139.0146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Campo2" "" (at 100.33 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "DIJOUS_4_PORTES"
+        (path "/69b34976-047e-478e-bd76-9b6ef0dba356" (page "5"))
       )
     )
   )

@@ -801,8 +801,8 @@
     (property "Datasheet" "~" (at 186.69 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 58fe071f-9b67-49b8-8e95-282d58d69f43))
     (pin "1" (uuid 41b0e8a0-4f5f-4ca6-af64-5bf7230e8bf5))
+    (pin "2" (uuid 58fe071f-9b67-49b8-8e95-282d58d69f43))
     (instances
       (project "DIJOUS_4_PORTES"
         (path "/69b34976-047e-478e-bd76-9b6ef0dba356/0e58b9bb-7a32-4563-ae50-f5e325ba8348"
@@ -954,8 +954,8 @@
     (property "Datasheet" "~" (at 168.91 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 48d99073-cd82-4e99-8a3f-5cca942d1b7d))
     (pin "1" (uuid dc1dd1af-083c-4572-8313-59a1879e4b56))
+    (pin "2" (uuid 48d99073-cd82-4e99-8a3f-5cca942d1b7d))
     (instances
       (project "DIJOUS_4_PORTES"
         (path "/69b34976-047e-478e-bd76-9b6ef0dba356/0e58b9bb-7a32-4563-ae50-f5e325ba8348"
@@ -1005,11 +1005,11 @@
     (property "Datasheet" "LT1528CT-PBF" (at 149.86 53.34 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
+    (pin "1" (uuid 742a8d9d-3430-42db-8d11-b4bcc797957d))
+    (pin "2" (uuid eb8036e8-07c3-487f-830c-f4385b725ce0))
+    (pin "3" (uuid 6197cc11-06f2-449c-8db3-0d45f2de6375))
     (pin "4" (uuid 79cbec1c-34d7-42c4-804f-a4362a440779))
     (pin "5" (uuid 4708a6eb-8e1a-478c-ac1e-fc53fc99e774))
-    (pin "1" (uuid 742a8d9d-3430-42db-8d11-b4bcc797957d))
-    (pin "3" (uuid 6197cc11-06f2-449c-8db3-0d45f2de6375))
-    (pin "2" (uuid eb8036e8-07c3-487f-830c-f4385b725ce0))
     (instances
       (project "DIJOUS_4_PORTES"
         (path "/69b34976-047e-478e-bd76-9b6ef0dba356/0e58b9bb-7a32-4563-ae50-f5e325ba8348"
@@ -1059,8 +1059,8 @@
     (property "Datasheet" "~" (at 247.65 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 3b9d7b40-e536-4852-a8a2-e9a1cd1b5568))
     (pin "1" (uuid c4c57a2a-fb91-41fc-b98f-5e5b0dcaf06a))
+    (pin "2" (uuid 3b9d7b40-e536-4852-a8a2-e9a1cd1b5568))
     (instances
       (project "DIJOUS_4_PORTES"
         (path "/69b34976-047e-478e-bd76-9b6ef0dba356/0e58b9bb-7a32-4563-ae50-f5e325ba8348"
@@ -1085,8 +1085,8 @@
     (property "Datasheet" "~" (at 177.8 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 76850e0e-ba19-4392-84b2-6db86b12f998))
     (pin "1" (uuid cbe2fed9-fa32-4f32-820c-3c740c352035))
+    (pin "2" (uuid 76850e0e-ba19-4392-84b2-6db86b12f998))
     (instances
       (project "DIJOUS_4_PORTES"
         (path "/69b34976-047e-478e-bd76-9b6ef0dba356/0e58b9bb-7a32-4563-ae50-f5e325ba8348"
@@ -1136,8 +1136,8 @@
     (property "Datasheet" "~" (at 149.86 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 73ff2811-8589-403f-90c4-4cff8cc7beae))
     (pin "1" (uuid 41ab08ce-d31d-482d-86b4-114645976248))
+    (pin "2" (uuid 73ff2811-8589-403f-90c4-4cff8cc7beae))
     (instances
       (project "DIJOUS_4_PORTES"
         (path "/69b34976-047e-478e-bd76-9b6ef0dba356/0e58b9bb-7a32-4563-ae50-f5e325ba8348"
@@ -1213,8 +1213,8 @@
     (property "Datasheet" "~" (at 160.02 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 7f9b8dac-f59e-4760-8a9f-a3346053ed7e))
     (pin "1" (uuid 6849cc65-d697-41b7-baa2-9d893822991b))
+    (pin "2" (uuid 7f9b8dac-f59e-4760-8a9f-a3346053ed7e))
     (instances
       (project "DIJOUS_4_PORTES"
         (path "/69b34976-047e-478e-bd76-9b6ef0dba356/0e58b9bb-7a32-4563-ae50-f5e325ba8348"
