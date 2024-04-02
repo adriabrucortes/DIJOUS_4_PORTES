@@ -17,4 +17,4 @@ View this project on [CADLAB.io](https://cadlab.io/project/27987).
 | ~~Current sensor (75A)~~ | ~~TMCS1123B2AQDVGR~~  | ~~[csense](https://www.ti.com/lit/ds/symlink/tmcs1123.pdf?ts=1711707167099&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTMCS1123%253Futm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Dasc-null-null-GPN_EN-cpc-pf-google-wwe_cons%2526utm_content%253DTMCS1123%2526ds_k%253DTMCS1123%2526DCM%253Dyes%2526gad_source%253D1%2526gclid%253DEAIaIQobChMIrdeOip6ZhQMVVSitBh03AwOFEAAYAiAAEgLiCfD_BwE%2526gclsrc%253Daw.ds)~~ | ~~[Mouser](https://www.mouser.es/ProductDetail/Texas-Instruments/TMCS1123B2AQDVGR?qs=sGAEpiMZZMsPDRSCoHb1X5I%2FjBVAAn8DJGrzHYBTAmBFitJQJPL%2Fbw%3D%3D)~~ | ~~5,63 €~~ |
 
 ## Diagrama de blocs
-![](./DOC/Diagrama/DiagramaBlocs.drawio.png)
+![](./DOC/Diagrama/Diagrama.png)
