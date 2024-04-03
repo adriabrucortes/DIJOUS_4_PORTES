@@ -24,7 +24,8 @@ View this project on [CADLAB.io](https://cadlab.io/project/27987).
 ![](Diagrama.png)
 
 ## To Do
-- [ ] Add buttons
+- [x] Add buttons
+- [ ] Maybe add controls for uC?
 
 ## Changelogs
 ### 04/04
