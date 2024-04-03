@@ -1,7 +1,7 @@
 View this project on [CADLAB.io](https://cadlab.io/project/27987). 
 
 # Projecte Eines de Disseny - PORTES
-### Adrià Brú, Miquel Limón, Lluís Pujadas
+#### Adrià Brú, Miquel Limón, Lluís Pujadas
 
 
 ## Especificacions/Components
@@ -15,7 +15,22 @@ View this project on [CADLAB.io](https://cadlab.io/project/27987).
 | Crystal Osc              | ECS-3225SMV-080-GP-TR | [clk](https://www.mouser.es/datasheet/2/122/ECS_3225SMV-1623609.pdf)                                                                                                                                                                                                                                                                                                                                                                               | [Mouser](https://www.mouser.es/ProductDetail/ECS/ECS-3225SMV-080-GP-TR?qs=sGAEpiMZZMtldj7qu1ydrbV2KlGvrVWIvUi3jDw2tLHT0SWfK9heCg%3D%3D)                  | 1,92 €     |
 | Driver (3.5A, +csense)   | MAX22201ATC+          | [driver](https://www.mouser.es/datasheet/2/609/MAX22201_MAX22207-3127854.pdf)                                                                                                                                                                                                                                                                                                                                                                      | [Mouser](https://www.mouser.es/ProductDetail/Analog-Devices-Maxim-Integrated/MAX22201ATC%2b?qs=stqOd1AaK7%252Bdqi04%2FQHs9Q%3D%3D)                       | 1,56 €     |
 | ~~Current sensor (75A)~~ | ~~TMCS1123B2AQDVGR~~  | ~~[csense](https://www.ti.com/lit/ds/symlink/tmcs1123.pdf?ts=1711707167099&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTMCS1123%253Futm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Dasc-null-null-GPN_EN-cpc-pf-google-wwe_cons%2526utm_content%253DTMCS1123%2526ds_k%253DTMCS1123%2526DCM%253Dyes%2526gad_source%253D1%2526gclid%253DEAIaIQobChMIrdeOip6ZhQMVVSitBh03AwOFEAAYAiAAEgLiCfD_BwE%2526gclsrc%253Daw.ds)~~ | ~~[Mouser](https://www.mouser.es/ProductDetail/Texas-Instruments/TMCS1123B2AQDVGR?qs=sGAEpiMZZMsPDRSCoHb1X5I%2FjBVAAn8DJGrzHYBTAmBFitJQJPL%2Fbw%3D%3D)~~ | ~~5,63 €~~ |
+| Zener 12V (150MW)        | DDZ9699T-7            | [zener](https://eu.mouser.com/datasheet/2/115/DIOD_S_A0003550665_1-2542209.pdf)                                                                                                                                                                                                                                                                                                                                                                    | [Mouser](https://eu.mouser.com/ProductDetail/Diodes-Incorporated/DDZ9699T-7?qs=mQbszxtPdlOBwg08InvD3Q%3D%3D)                                             | 0,41 €     |
+| Díode                    | BYV10MX-600PQ         | [diode](https://eu.mouser.com/datasheet/2/848/BYV10MX_600P-2401273.pdf)                                                                                                                                                                                                                                                                                                                                                                            | [Mouser](https://eu.mouser.com/ProductDetail/WeEn-Semiconductors/BYV10MX-600PQ?qs=QNEnbhJQKvYwaGjd%2F4%252BPWg%3D%3D)                                    | 0,54 €     |
+| RFID                     | DLP-RFID2             | [rfid](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5656/DLP-RFID2%28D%29-V2.pdf)                                                                                                                                                                                                                                                                                                                                                  | [Digikey](https://www.digikey.es/en/products/detail/dlp-design-inc/DLP-RFID2/3770244)                                                                    | 35,04 €    |
 
 
 ## Diagrama de blocs
 ![](Diagrama.png)
+
+## To Do
+- [ ] Add buttons
+
+## Changelogs
+### 04/04
+- Schematic done
+- Corrected block diagram
+	- Added additional data
+	- Deleted 12V LDO
+	- Changed current sensor for integrated Driver+Sensor
+

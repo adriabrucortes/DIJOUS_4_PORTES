@@ -5,4 +5,5 @@
   (lib (name "MAX22201ATC_")(type "KiCad")(uri "${KIPRJMOD}/kicad_models/MAX22201ATC_.kicad_sym")(options "")(descr ""))
   (lib (name "PIC32MK0256MCJ048-I-Y8X")(type "KiCad")(uri "${KIPRJMOD}/kicad_models/PIC32MK0256MCJ048-I-Y8X.kicad_sym")(options "")(descr ""))
   (lib (name "TCAN3413DR")(type "KiCad")(uri "${KIPRJMOD}/kicad_models/TCAN3413DR.kicad_sym")(options "")(descr ""))
+  (lib (name "DLP-RFID2")(type "KiCad")(uri "${KIPRJMOD}/kicad_models/DLP-RFID2.kicad_sym")(options "")(descr ""))
 )
