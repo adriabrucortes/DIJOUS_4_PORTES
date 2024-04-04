@@ -28,6 +28,10 @@ View this project on [CADLAB.io](https://cadlab.io/project/27987).
 - [x] Add buttons
 - [x] Add power input protection
 - [x] Add controls
+- [ ] Resize boxes to same size (diagram)
+- [ ] Restructure schematic for simplicity
+- [ ] Change "targeta" to "targeta clauer"
+- [ ] PCB v1
 
 ## Changelogs
 ### 04/04
