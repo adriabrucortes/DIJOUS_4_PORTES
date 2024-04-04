@@ -789,6 +789,11 @@
     (uuid d27032d4-0d2b-4a3a-aba6-1fe7faa4c446)
   )
 
+  (label "pwin" (at 33.02 50.8 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 34d8bf9f-f051-463d-8934-cd3d36850007)
+  )
+
   (symbol (lib_id "power:GNDPWR") (at 33.02 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 04a95cee-2971-4d5a-af99-b07910ce26cf)

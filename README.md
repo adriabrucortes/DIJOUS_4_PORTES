@@ -70,3 +70,4 @@ View this project on [CADLAB.io](https://cadlab.io/project/27987).
 
 ### 05/04 
 - Added all components
+- PWR plane done (v1)
