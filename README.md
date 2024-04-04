@@ -31,6 +31,8 @@ View this project on [CADLAB.io](https://cadlab.io/project/27987).
 - [ ] Resize boxes to same size (diagram)
 - [ ] Restructure schematic for simplicity
 - [ ] Change "targeta" to "targeta clauer"
+- [ ] Add buttons to schematic
+- [ ] Add expression for R (ISENSE)
 - [ ] PCB v1
 
 ## Changelogs
