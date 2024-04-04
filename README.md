@@ -19,6 +19,8 @@ View this project on [CADLAB.io](https://cadlab.io/project/27987).
 | Díode                         | BYV10MX-600PQ         | [diode](https://eu.mouser.com/datasheet/2/848/BYV10MX_600P-2401273.pdf)                                                                                                                                                                                                                                                                                                                                                                            | [Mouser](https://eu.mouser.com/ProductDetail/WeEn-Semiconductors/BYV10MX-600PQ?qs=QNEnbhJQKvYwaGjd%2F4%252BPWg%3D%3D)                                    | 0,54 €     |
 | RFID                          | DLP-RFID2             | [rfid](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5656/DLP-RFID2%28D%29-V2.pdf)                                                                                                                                                                                                                                                                                                                                                  | [Digikey](https://www.digikey.es/en/products/detail/dlp-design-inc/DLP-RFID2/3770244)                                                                    | 35,04 €    |
 | Motor lineal (150N, 2A) (opc) | DLA-12-5-A-50-IP65    | [motor-lineal](https://www.transmotec.com/Download/Catalog/Transmotec-EN-DLA-2022.pdf)                                                                                                                                                                                                                                                                                                                                                             | [Transmotec](https://www.transmotec.com/product/dla-12-5-a-50-pot-ip65/)                                                                                 | 303,5 €    |
+| DC/DC 3.3V (2A, +/-49.5mV)    | P7803-2000R-S         | [dcdc2A](https://eu.mouser.com/datasheet/2/670/p78_2000r_s-3070500.pdf)                                                                                                                                                                                                                                                                                                                                                                            | [Mouser](https://eu.mouser.com/ProductDetail/CUI-Inc/P7803-2000R-S?qs=vvQtp7zwQdObalelOc2Obw%3D%3D)                                                      | 5,53 €     |
+| DC/DC 3.3V (3A, +/-33.3mV)    | P783-Q24-S3-S         | [dcdc3A](https://eu.mouser.com/datasheet/2/670/p783_s-1889817.pdf)                                                                                                                                                                                                                                                                                                                                                                                 | [Mouser](https://eu.mouser.com/ProductDetail/CUI-Inc/P783-Q24-S3-S?qs=sPbYRqrBIVl7G8uy4wpmww%3D%3D)                                                      | 15,07 €    |
 
 
 ## Diagrama de blocs
@@ -29,16 +31,23 @@ View this project on [CADLAB.io](https://cadlab.io/project/27987).
 - [x] Add power input protection
 - [x] Add controls
 - [ ] Resize boxes to same size (diagram)
-- [ ] Restructure schematic for simplicity
 - [ ] Change "targeta" to "targeta clauer"
-- [ ] Add buttons to schematic
-- [ ] Add expression for R (ISENSE)
+- [x] Restructure schematic for simplicity
+- [x] Add buttons to schematic
+- [x] Add expression for R (ISENSE)
+- [x] Change regulator to DC/DC (maybe + regulator)
 - [ ] PCB v1
 
 ## Changelogs
-### 04/04
+### 03/04
 - Schematic done
 - Corrected block diagram
 	- Added additional data
 	- Deleted 12V LDO
 	- Changed current sensor for integrated Driver+Sensor
+### 04/04
+- Swapped regulator for DC/DC
+- Add expression for R (ISENSE)
+- Change regulator to DC/DC (maybe + regulator)
+- Restructure schematic for simplicity
+- Added 1 extra bit for window control
