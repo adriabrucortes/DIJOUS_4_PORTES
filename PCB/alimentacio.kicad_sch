@@ -1259,6 +1259,11 @@
     )
     (pin "1" (uuid 87714d83-f0dc-4783-85e0-6490ee939b12))
     (instances
+      (project "DIJOUS_4_PORTES"
+        (path "/69b34976-047e-478e-bd76-9b6ef0dba356/0e58b9bb-7a32-4563-ae50-f5e325ba8348"
+          (reference "#PWR03") (unit 1)
+        )
+      )
       (project "alimentacio"
         (path "/88fa5da0-8701-4b36-a7b6-c9dab3428a53"
           (reference "#PWR03") (unit 1)
@@ -1332,13 +1337,13 @@
   (symbol (lib_id "Device:R") (at 233.68 58.42 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3ec3ea8d-718f-46a8-a096-09f23f6e92b3)
-    (property "Reference" "R2" (at 229.87 58.42 0)
+    (property "Reference" "R_LDO1" (at 229.87 58.42 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "330" (at 237.49 58.42 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 235.458 58.42 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 235.458 58.42 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 233.68 58.42 0)
@@ -1349,7 +1354,7 @@
     (instances
       (project "DIJOUS_4_PORTES"
         (path "/69b34976-047e-478e-bd76-9b6ef0dba356/0e58b9bb-7a32-4563-ae50-f5e325ba8348"
-          (reference "R2") (unit 1)
+          (reference "R_LDO1") (unit 1)
         )
       )
       (project "alimentacio"
@@ -1446,6 +1451,36 @@
       (project "alimentacio"
         (path "/88fa5da0-8701-4b36-a7b6-c9dab3428a53"
           (reference "#PWR04") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GNDPWR") (at 140.97 62.23 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 5792c8ab-e451-4583-a3ce-9965adf6754a)
+    (property "Reference" "#PWR057" (at 140.97 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GNDPWR" (at 140.97 66.04 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 140.97 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 140.97 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b71453fb-eb92-46ca-8c74-2ad178e3d25c))
+    (instances
+      (project "DIJOUS_4_PORTES"
+        (path "/69b34976-047e-478e-bd76-9b6ef0dba356/0e58b9bb-7a32-4563-ae50-f5e325ba8348"
+          (reference "#PWR057") (unit 1)
+        )
+      )
+      (project "alimentacio"
+        (path "/88fa5da0-8701-4b36-a7b6-c9dab3428a53"
+          (reference "#PWR055") (unit 1)
         )
       )
     )
@@ -1605,7 +1640,7 @@
   (symbol (lib_id "power:+3.3V") (at 270.51 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 787509f3-2e33-4fcb-90be-0eb4e00c0c1b)
-    (property "Reference" "#PWR03" (at 270.51 45.72 0)
+    (property "Reference" "#PWR0101" (at 270.51 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 270.51 36.83 0)
@@ -1621,7 +1656,7 @@
     (instances
       (project "DIJOUS_4_PORTES"
         (path "/69b34976-047e-478e-bd76-9b6ef0dba356/0e58b9bb-7a32-4563-ae50-f5e325ba8348"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR0101") (unit 1)
         )
       )
       (project "alimentacio"
@@ -1710,6 +1745,11 @@
     )
     (pin "1" (uuid 0eab3025-ca26-4177-9133-71652d253947))
     (instances
+      (project "DIJOUS_4_PORTES"
+        (path "/69b34976-047e-478e-bd76-9b6ef0dba356/0e58b9bb-7a32-4563-ae50-f5e325ba8348"
+          (reference "#PWR010") (unit 1)
+        )
+      )
       (project "alimentacio"
         (path "/88fa5da0-8701-4b36-a7b6-c9dab3428a53"
           (reference "#PWR010") (unit 1)
@@ -1727,7 +1767,7 @@
     (property "Value" "1u" (at 175.26 50.8 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 174.9552 57.15 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 174.9552 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 173.99 53.34 0)
@@ -1758,7 +1798,7 @@
     (property "Value" "47u" (at 255.27 58.42 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 252.73 57.15 0)
+    (property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" (at 252.73 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 252.73 57.15 0)
@@ -1789,7 +1829,7 @@
     (property "Value" "47u" (at 246.38 58.42 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 243.84 57.15 0)
+    (property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" (at 243.84 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 243.84 57.15 0)
@@ -1806,36 +1846,6 @@
       (project "alimentacio"
         (path "/88fa5da0-8701-4b36-a7b6-c9dab3428a53"
           (reference "C3") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 140.97 62.23 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid a866f2b0-e12a-420b-b1c5-0f8017e86f34)
-    (property "Reference" "#PWR058" (at 140.97 68.58 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 140.97 66.04 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 140.97 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 140.97 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 9fbf5200-ce77-4b1d-a85b-d83c10fee292))
-    (instances
-      (project "DIJOUS_4_PORTES"
-        (path "/69b34976-047e-478e-bd76-9b6ef0dba356/0e58b9bb-7a32-4563-ae50-f5e325ba8348"
-          (reference "#PWR058") (unit 1)
-        )
-      )
-      (project "alimentacio"
-        (path "/88fa5da0-8701-4b36-a7b6-c9dab3428a53"
-          (reference "#PWR058") (unit 1)
         )
       )
     )
@@ -1941,7 +1951,7 @@
     (property "Value" "47u" (at 264.16 58.42 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 261.62 57.15 0)
+    (property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" (at 261.62 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 261.62 57.15 0)
@@ -1972,7 +1982,7 @@
     (property "Value" "100n" (at 181.61 50.8 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 181.3052 57.15 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 181.3052 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 180.34 53.34 0)
@@ -2128,7 +2138,7 @@
     (property "Value" "47u" (at 273.05 58.42 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 270.51 57.15 0)
+    (property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" (at 270.51 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 270.51 57.15 0)

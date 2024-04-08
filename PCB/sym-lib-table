@@ -11,4 +11,5 @@
   (lib (name "DDZ9699T-7")(type "KiCad")(uri "${KIPRJMOD}/kicad_models/DDZ9699T-7.kicad_sym")(options "")(descr ""))
   (lib (name "KTS500B226M76N0T00")(type "KiCad")(uri "${KIPRJMOD}/kicad_models/KTS500B226M76N0T00.kicad_sym")(options "")(descr ""))
   (lib (name "865080540002")(type "KiCad")(uri "${KIPRJMOD}/kicad_models/865080540002.kicad_sym")(options "")(descr ""))
+  (lib (name "ASZKDV_ABR")(type "KiCad")(uri "${KIPRJMOD}/kicad_models/ASZKDV_ABR.kicad_sym")(options "")(descr ""))
 )

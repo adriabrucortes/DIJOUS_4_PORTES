@@ -81,3 +81,5 @@ View this project on [CADLAB.io](https://cadlab.io/project/27987).
 - Corrected diagram
 - Changed from DC/DC to DC/DC (5V) + LDO (3,3V)
 - Change second Clk to 32kHz
+- Delete JTAG
+- Correct oscillator connections

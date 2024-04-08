@@ -717,6 +717,10 @@
       {
         "netclass": "Analog",
         "pattern": "GNDA"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "+5V"
       }
     ]
   },
