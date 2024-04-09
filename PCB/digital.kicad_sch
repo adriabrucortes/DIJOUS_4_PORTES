@@ -2245,7 +2245,7 @@
   (symbol (lib_id "Device:C_Polarized_US") (at 254 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0066097e-670f-44e1-a797-3d794eae5d25)
-    (property "Reference" "C3" (at 256.54 48.26 0)
+    (property "Reference" "C20" (at 256.54 48.26 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7u" (at 256.54 50.8 0)
@@ -2261,9 +2261,6 @@
     (pin "2" (uuid 723ff97b-ef10-4c19-ba7d-f20d2011f6ea))
     (instances
       (project "DIJOUS_4_PORTES"
-        (path "/69b34976-047e-478e-bd76-9b6ef0dba356/0e58b9bb-7a32-4563-ae50-f5e325ba8348"
-          (reference "C3") (unit 1)
-        )
         (path "/69b34976-047e-478e-bd76-9b6ef0dba356/6b83d062-cc2b-4223-9dc9-bddc64623104"
           (reference "C20") (unit 1)
         )
@@ -2817,7 +2814,7 @@
   (symbol (lib_id "Device:C_Polarized_US") (at 50.8 74.93 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 463704c8-dab4-4a51-8245-cafdc4928830)
-    (property "Reference" "C3" (at 58.42 76.2 0)
+    (property "Reference" "C18" (at 58.42 76.2 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7u" (at 58.42 73.66 0)
@@ -2833,9 +2830,6 @@
     (pin "2" (uuid 36bd6656-40fc-4bbb-82a9-ddf8f02af836))
     (instances
       (project "DIJOUS_4_PORTES"
-        (path "/69b34976-047e-478e-bd76-9b6ef0dba356/0e58b9bb-7a32-4563-ae50-f5e325ba8348"
-          (reference "C3") (unit 1)
-        )
         (path "/69b34976-047e-478e-bd76-9b6ef0dba356/6b83d062-cc2b-4223-9dc9-bddc64623104"
           (reference "C18") (unit 1)
         )
@@ -3497,7 +3491,7 @@
   (symbol (lib_id "Device:C_Polarized_US") (at 50.8 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9a75e078-547c-4aa5-8416-fe2a6dddcc4e)
-    (property "Reference" "C3" (at 53.34 88.9 0)
+    (property "Reference" "C17" (at 53.34 88.9 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7u" (at 53.34 91.44 0)
@@ -3513,9 +3507,6 @@
     (pin "2" (uuid 15cfe74f-960f-4a8e-8e19-02c3847e5b7f))
     (instances
       (project "DIJOUS_4_PORTES"
-        (path "/69b34976-047e-478e-bd76-9b6ef0dba356/0e58b9bb-7a32-4563-ae50-f5e325ba8348"
-          (reference "C3") (unit 1)
-        )
         (path "/69b34976-047e-478e-bd76-9b6ef0dba356/6b83d062-cc2b-4223-9dc9-bddc64623104"
           (reference "C17") (unit 1)
         )
@@ -3652,7 +3643,7 @@
   (symbol (lib_id "Device:C_Polarized_US") (at 276.86 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a58bf74b-0d56-4ee9-9c89-45fbc3ffcd95)
-    (property "Reference" "C3" (at 278.13 90.17 0)
+    (property "Reference" "C19" (at 278.13 90.17 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7u" (at 279.4 95.25 0)
@@ -3668,9 +3659,6 @@
     (pin "2" (uuid f6848e56-5f96-4717-9de9-003f470679c6))
     (instances
       (project "DIJOUS_4_PORTES"
-        (path "/69b34976-047e-478e-bd76-9b6ef0dba356/0e58b9bb-7a32-4563-ae50-f5e325ba8348"
-          (reference "C3") (unit 1)
-        )
         (path "/69b34976-047e-478e-bd76-9b6ef0dba356/6b83d062-cc2b-4223-9dc9-bddc64623104"
           (reference "C19") (unit 1)
         )
@@ -3706,7 +3694,7 @@
   (symbol (lib_id "Device:C_Polarized_US") (at 52.07 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b06e8e38-324a-499d-a274-380179b317cd)
-    (property "Reference" "C3" (at 54.61 43.18 0)
+    (property "Reference" "C21" (at 54.61 43.18 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7u" (at 54.61 45.72 0)
@@ -3722,9 +3710,6 @@
     (pin "2" (uuid 6ac3e832-1b52-4276-855a-3bcec2c0132b))
     (instances
       (project "DIJOUS_4_PORTES"
-        (path "/69b34976-047e-478e-bd76-9b6ef0dba356/0e58b9bb-7a32-4563-ae50-f5e325ba8348"
-          (reference "C3") (unit 1)
-        )
         (path "/69b34976-047e-478e-bd76-9b6ef0dba356/6b83d062-cc2b-4223-9dc9-bddc64623104"
           (reference "C21") (unit 1)
         )

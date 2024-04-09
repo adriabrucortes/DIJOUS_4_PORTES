@@ -1444,7 +1444,7 @@
   (symbol (lib_id "MAX22201ATC_:MAX22201ATC+") (at 69.85 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 52e71769-adc8-4120-a0a3-05d44bb95a4c)
-    (property "Reference" "U4" (at 92.71 137.16 0)
+    (property "Reference" "U5" (at 92.71 137.16 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "MAX22201ATC+" (at 92.71 139.7 0)
@@ -1470,9 +1470,6 @@
     (pin "9" (uuid 78a5193f-b9ec-4b23-9a54-e1b760f4c765))
     (instances
       (project "DIJOUS_4_PORTES"
-        (path "/69b34976-047e-478e-bd76-9b6ef0dba356/6b83d062-cc2b-4223-9dc9-bddc64623104"
-          (reference "U4") (unit 1)
-        )
         (path "/69b34976-047e-478e-bd76-9b6ef0dba356/1c250547-8c37-4478-9ce5-99247889367f"
           (reference "U5") (unit 1)
         )
@@ -1637,9 +1634,6 @@
     (pin "9" (uuid 676deb00-09cb-4882-9fb5-6a4062861dd6))
     (instances
       (project "DIJOUS_4_PORTES"
-        (path "/69b34976-047e-478e-bd76-9b6ef0dba356/6b83d062-cc2b-4223-9dc9-bddc64623104"
-          (reference "U4") (unit 1)
-        )
         (path "/69b34976-047e-478e-bd76-9b6ef0dba356/1c250547-8c37-4478-9ce5-99247889367f"
           (reference "U4") (unit 1)
         )
