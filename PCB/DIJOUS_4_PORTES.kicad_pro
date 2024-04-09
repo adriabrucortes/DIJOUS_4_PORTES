@@ -454,9 +454,26 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
+        "name": "DIFFERENTIAL",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(25, 255, 0)",
+        "track_width": 0.25,
+        "via_diameter": 0.4,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "Digital",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(255, 184, 35)",
+        "schematic_color": "rgb(255, 0, 253)",
         "track_width": 0.3,
         "via_diameter": 0.4,
         "via_drill": 0.2,
@@ -471,12 +488,63 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "PWR",
+        "name": "GND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(0, 0, 0)",
+        "track_width": 0.25,
+        "via_diameter": 0.4,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "GNDPWR",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(0, 0, 0)",
+        "track_width": 0.25,
+        "via_diameter": 0.4,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "PWRH",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(255, 17, 38)",
         "track_width": 1.0,
         "via_diameter": 2.0,
         "via_drill": 0.8,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "PWRL",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(255, 169, 0)",
+        "track_width": 0.25,
+        "via_diameter": 0.4,
+        "via_drill": 0.2,
         "wire_width": 6
       }
     ],
@@ -487,39 +555,39 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "PWR",
+        "netclass": "PWRH",
         "pattern": "+12V"
       },
       {
-        "netclass": "PWR",
+        "netclass": "PWRH",
         "pattern": "GNDPWR"
       },
       {
-        "netclass": "PWR",
+        "netclass": "PWRH",
         "pattern": "/PWR IN/in"
       },
       {
-        "netclass": "Digital",
+        "netclass": "PWRL",
         "pattern": "+3.3V"
       },
       {
-        "netclass": "Digital",
+        "netclass": "GND",
         "pattern": "GND"
       },
       {
-        "netclass": "Analog",
+        "netclass": "DIFFERENTIAL",
         "pattern": "CANH"
       },
       {
-        "netclass": "Analog",
+        "netclass": "DIFFERENTIAL",
         "pattern": "CANL"
       },
       {
-        "netclass": "Digital",
+        "netclass": "PWRL",
         "pattern": "VDD"
       },
       {
-        "netclass": "Digital",
+        "netclass": "PWRL",
         "pattern": "{slash}MCLR"
       },
       {
@@ -579,11 +647,11 @@
         "pattern": "SPI_SS"
       },
       {
-        "netclass": "Analog",
+        "netclass": "Digital",
         "pattern": "FINAL_CARRERA_DOWN"
       },
       {
-        "netclass": "Analog",
+        "netclass": "Digital",
         "pattern": "FINAL_CARRERA_UP"
       },
       {
@@ -635,11 +703,11 @@
         "pattern": "ISEN_WIN"
       },
       {
-        "netclass": "PWR",
+        "netclass": "PWRH",
         "pattern": "WIN_OUT1"
       },
       {
-        "netclass": "PWR",
+        "netclass": "PWRH",
         "pattern": "WIN_OUT2"
       },
       {
@@ -683,11 +751,11 @@
         "pattern": "{slash}FAULT_DOOR"
       },
       {
-        "netclass": "PWR",
+        "netclass": "PWRH",
         "pattern": "DOOR_OUT1"
       },
       {
-        "netclass": "PWR",
+        "netclass": "PWRH",
         "pattern": "DOOR_OUT2"
       },
       {
@@ -711,7 +779,7 @@
         "pattern": "/DIGITAL/MCLR_VDD"
       },
       {
-        "netclass": "PWR",
+        "netclass": "PWRH",
         "pattern": "/PWR IN/pwin"
       },
       {
@@ -719,7 +787,7 @@
         "pattern": "GNDA"
       },
       {
-        "netclass": "PWR",
+        "netclass": "PWRL",
         "pattern": "+5V"
       }
     ]
