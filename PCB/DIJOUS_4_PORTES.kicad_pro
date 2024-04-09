@@ -440,7 +440,7 @@
         "name": "Analog",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(59, 84, 255)",
-        "track_width": 0.3,
+        "track_width": 0.6,
         "via_diameter": 0.4,
         "via_drill": 0.2,
         "wire_width": 6
@@ -457,7 +457,7 @@
         "name": "DIFFERENTIAL",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(25, 255, 0)",
-        "track_width": 0.25,
+        "track_width": 0.3,
         "via_diameter": 0.4,
         "via_drill": 0.2,
         "wire_width": 6
@@ -474,7 +474,7 @@
         "name": "Digital",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(255, 0, 253)",
-        "track_width": 0.3,
+        "track_width": 0.6,
         "via_diameter": 0.4,
         "via_drill": 0.2,
         "wire_width": 6
@@ -491,7 +491,7 @@
         "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(0, 0, 0)",
-        "track_width": 0.25,
+        "track_width": 0.6,
         "via_diameter": 0.4,
         "via_drill": 0.2,
         "wire_width": 6
@@ -508,7 +508,7 @@
         "name": "GNDPWR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(0, 0, 0)",
-        "track_width": 0.25,
+        "track_width": 2.0,
         "via_diameter": 0.4,
         "via_drill": 0.2,
         "wire_width": 6
@@ -525,7 +525,7 @@
         "name": "PWRH",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(255, 17, 38)",
-        "track_width": 1.0,
+        "track_width": 2.0,
         "via_diameter": 2.0,
         "via_drill": 0.8,
         "wire_width": 6
@@ -542,7 +542,7 @@
         "name": "PWRL",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(255, 169, 0)",
-        "track_width": 0.25,
+        "track_width": 0.6,
         "via_diameter": 0.4,
         "via_drill": 0.2,
         "wire_width": 6
