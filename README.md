@@ -46,8 +46,8 @@ View this project on [CADLAB.io](https://cadlab.io/project/27987).
 - [x] Add buttons
 - [x] Add power input protection
 - [x] Add controls
-- [ ] Resize boxes to same size (diagram)
-- [ ] Change "targeta" to "targeta clauer"
+- [x] Resize boxes to same size (diagram)
+- [x] Change "targeta" to "targeta clauer"
 - [x] Restructure schematic for simplicity
 - [x] Add buttons to schematic
 - [x] Add expression for R (ISENSE)
