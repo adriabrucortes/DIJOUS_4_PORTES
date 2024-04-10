@@ -8,6 +8,15 @@
   )
 
 
+  (text "11/04" (at 207.01 194.31 0)
+    (effects (font (size 1.5 1.5)) (justify left bottom))
+    (uuid 71ce96ed-cdb7-492a-962f-ae9b7a825590)
+  )
+  (text "DIJOUS_4_PORTES_MASTER" (at 186.69 190.5 0)
+    (effects (font (size 1.5 1.5)) (justify left bottom))
+    (uuid e7764873-7ba1-4c8b-8d5f-9763750e5cbc)
+  )
+
   (sheet (at 20.32 21.59) (size 62.23 39.37) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))

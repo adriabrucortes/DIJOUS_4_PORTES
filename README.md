@@ -53,8 +53,9 @@ View this project on [CADLAB.io](https://cadlab.io/project/27987).
 - [x] Add buttons to schematic
 - [x] Add expression for R (ISENSE)
 - [x] Change regulator to DC/DC (maybe + regulator)
-- [ ] PCB v1
-- [ ] Change 2nd crystal to 32kHz (instead of 8MHz)
+- [x] PCB v1
+- [x] Change 2nd crystal to 32kHz (instead of 8MHz)
+- [ ] Correct via errors (DRC)
 
 ## Changelogs
 ### 03/04
@@ -84,3 +85,7 @@ View this project on [CADLAB.io](https://cadlab.io/project/27987).
 - Change second Clk to 32kHz
 - Delete JTAG
 - Correct oscillator connections
+
+### 09/04
+- Preliminar PCB done
+- Added name to file
