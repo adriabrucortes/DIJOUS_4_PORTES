@@ -35,8 +35,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 2.5908,
-          "width": 1.8034
+          "height": 0.2,
+          "width": 0.6
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -124,7 +124,7 @@
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.15,
         "min_track_width": 0.127,
-        "min_via_annular_width": 0.13,
+        "min_via_annular_width": 0.06999999999999999,
         "min_via_diameter": 0.3,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
@@ -587,7 +587,7 @@
         "pattern": "VDD"
       },
       {
-        "netclass": "Analog",
+        "netclass": "PWRL",
         "pattern": "{slash}MCLR"
       },
       {
