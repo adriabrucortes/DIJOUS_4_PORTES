@@ -55,7 +55,8 @@ View this project on [CADLAB.io](https://cadlab.io/project/27987).
 - [x] Change regulator to DC/DC (maybe + regulator)
 - [x] PCB v1
 - [x] Change 2nd crystal to 32kHz (instead of 8MHz)
-- [ ] Correct via errors (DRC)
+- [x] Correct via errors (DRC)
+- [ ] Solve pcb model compatibility issues
 
 ## Changelogs
 ### 03/04
@@ -64,6 +65,7 @@ View this project on [CADLAB.io](https://cadlab.io/project/27987).
 	- Added additional data
 	- Deleted 12V LDO
 	- Changed current sensor for integrated Driver+Sensor
+ 
 ### 04/04
 - Swapped regulator for DC/DC
 - Add expression for R (ISENSE)
@@ -89,3 +91,7 @@ View this project on [CADLAB.io](https://cadlab.io/project/27987).
 ### 09/04
 - Preliminar PCB done
 - Added name to file
+  
+### 10/04
+- Solved DRC
+- Added names to board
