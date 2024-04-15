@@ -35,8 +35,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.2,
-          "width": 0.6
+          "height": 1.4,
+          "width": 1.025
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -576,11 +576,11 @@
       },
       {
         "netclass": "DIFFERENTIAL",
-        "pattern": "CANH"
+        "pattern": "CAN_P"
       },
       {
         "netclass": "DIFFERENTIAL",
-        "pattern": "CANL"
+        "pattern": "CAN_N"
       },
       {
         "netclass": "PWRL",
@@ -796,7 +796,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
+      "netlist": "./",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
