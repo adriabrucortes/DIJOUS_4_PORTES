@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP DDZ9699T-7
-D Diodes Inc DDZ9699T-7 Zener Diode, 12V 5% 150 mW SMT 2-Pin SOD-523
-K
-F https://www.diodes.com//assets/Datasheets/ds30553.pdf
-$ENDCMP
-#
-#End Doc Library

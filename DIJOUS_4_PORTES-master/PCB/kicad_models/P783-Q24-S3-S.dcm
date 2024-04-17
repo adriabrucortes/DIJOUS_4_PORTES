@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP P783-Q24-S3-S
-D Non-Isolated DC/DC Converters dc-dc non-isolated, 3 A, 8~36 Vdc input, 3.3 Vdc output, SIP NON-ISOLATED SWITCHING REGULATOR
-K
-F https://www.mouser.at/ProductDetail/CUI-Inc/P783-Q24-S3-S?qs=sPbYRqrBIVl7G8uy4wpmww==
-$ENDCMP
-#
-#End Doc Library

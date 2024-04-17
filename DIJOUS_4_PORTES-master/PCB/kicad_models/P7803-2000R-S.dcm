@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP P7803-2000R-S
-D Non-Isolated DC/DC Converters dc-dc non-isolated, 2 A, 6-36 Vdc input, 3.3 Vdc output, rt SIP
-K
-F https://www.cui.com/product/resource/p78-2000r-s.pdf
-$ENDCMP
-#
-#End Doc Library
