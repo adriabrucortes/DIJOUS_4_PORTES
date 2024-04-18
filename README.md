@@ -97,3 +97,18 @@ View this project on [CADLAB.io](https://cadlab.io/project/27987).
 ### 10/04
 - Solved DRC
 - Added names to board
+
+### 11/04
+- Changed SMD capacitors to ceramic
+
+### 13/04
+- Rearranged microcontroller pins
+
+### 14/04
+- Rearranged PCB to reduce through-holes
+
+### 16/04
+- Rearranged power stage
+
+### 17/04
+- Switched decoupling capacitors to back layer
