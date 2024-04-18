@@ -56,8 +56,9 @@ View this project on [CADLAB.io](https://cadlab.io/project/27987).
 - [x] Change 2nd crystal to 32kHz (instead of 8MHz)
 - [x] Correct via errors (DRC)
 - [x] Solve pcb model compatibility issues
-- [ ] Rearrange power components
-- [ ] Remove SPI
+- [x] Rearrange power components
+- [x] Remove SPI
+- [ ] Make budget for different production quantities
 
 ## Changelogs
 ### 03/04
