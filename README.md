@@ -116,3 +116,4 @@ View this project on [CADLAB.io](https://cadlab.io/project/27987).
 - Solve DRC errors,
 - Restructure 
 - Change decoupling capacitors to bottom layer
+- Corrections suggested by Joan
