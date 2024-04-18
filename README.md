@@ -37,6 +37,7 @@ View this project on [CADLAB.io](https://cadlab.io/project/27987).
 | R 10k 0.25W 0805              | RNCP0805JTD10K0       | [r10k](https://eu.mouser.com/datasheet/2/385/SEI_rncp-3077653.pdf)                                                                                                                                                                                                                                                                                                                                                                                 | [Mouser](https://eu.mouser.com/ProductDetail/SEI-Stackpole/RNCP0805JTD10K0?qs=IPgv5n7u5QaJFxYpOecM6A%3D%3D)                                              | 0,007 €    |
 | R 100k 125mW 0805             | TC0550F1003T5G        | [r100k](https://eu.mouser.com/datasheet/2/1365/Royalohm_09132021_9__Thin_Film_20200106-2580434.pdf)                                                                                                                                                                                                                                                                                                                                                | [Mouser](https://eu.mouser.com/ProductDetail/Royalohm/TC0550F1003T5G?qs=Wj%2FVkw3K%252BMBYxpaKle1zIA%3D%3D)                                              | 0,007 €    |
 | R 33k 125mW 0805              | TC0550D3302T5G        | [r33k](https://eu.mouser.com/datasheet/2/1365/Royalohm_09132021_9__Thin_Film_20200106-2580434.pdf)                                                                                                                                                                                                                                                                                                                                                 | [Mouser](https://eu.mouser.com/ProductDetail/Royalohm/TC0550D3302T5G?qs=Wj%2FVkw3K%252BMB5M6MpcX7%252Byw%3D%3D)                                          | 0,008 €    |
+| 1                             | 2                     | 3                                                                                                                                                                                                                                                                                                                                                                                                                                                  | 4                                                                                                                                                        | 5          |
 
 
 
@@ -111,4 +112,8 @@ View this project on [CADLAB.io](https://cadlab.io/project/27987).
 - Rearranged power stage
 
 ### 17/04
+<<<<<<< HEAD
 - Switched decoupling capacitors to back layer
+=======
+- Switched decoupling capacitors to back layer
+>>>>>>> 623ebaa6b3f74a4f7b314b5625accef5260fd05b
