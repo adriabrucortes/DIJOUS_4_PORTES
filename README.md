@@ -110,8 +110,9 @@ View this project on [CADLAB.io](https://cadlab.io/project/27987).
 - Rearranged power stage
 
 ### 17/04
-<<<<<<< HEAD
 - Switched decoupling capacitors to back layer
-=======
-- Switched decoupling capacitors to back layer
->>>>>>> 623ebaa6b3f74a4f7b314b5625accef5260fd05b
+
+### 18/04
+- Solve DRC errors,
+- Restructure 
+- Change decoupling capacitors to bottom layer
