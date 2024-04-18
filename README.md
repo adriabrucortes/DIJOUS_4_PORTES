@@ -59,6 +59,7 @@ View this project on [CADLAB.io](https://cadlab.io/project/27987).
 - [x] Rearrange power components
 - [x] Remove SPI
 - [ ] Make budget for different production quantities
+- [ ] Correct silkscreen
 
 ## Changelogs
 ### 03/04
