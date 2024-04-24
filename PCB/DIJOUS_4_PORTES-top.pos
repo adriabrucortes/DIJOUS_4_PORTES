@@ -1,0 +1,57 @@
+### Footprint positions - created on Thu Apr 18 16:30:28 2024 ###
+### Printed by KiCad version 7.0.10
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                      Package                                                                                        PosX       PosY       Rot  Side
+C1        1u                       C_0805_2012Metric                                                                          158.8590   -90.2818  180.0000  top
+C2        100n                     C_0805_2012Metric                                                                          158.8840   -88.1318  180.0000  top
+C3        47u                      CP_Radial_D5.0mm_P2.00mm                                                                   166.0600   -94.5000  -90.0000  top
+C4        47u                      CP_Radial_D5.0mm_P2.00mm                                                                   159.5100   -94.5000  -90.0000  top
+C5        47u                      CP_Radial_D5.0mm_P2.00mm                                                                   152.9600   -94.5000  -90.0000  top
+C6        47u                      CP_Radial_D5.0mm_P2.00mm                                                                   146.4100   -94.5000  -90.0000  top
+C12       0.1u                     C_0402_1005Metric                                                                          197.6810   -98.3643   90.0000  top
+C14       100n                     C_0402_1005Metric                                                                          189.5600   -98.4400    0.0000  top
+C22       1u                       C_0805_2012Metric                                                                          217.1950  -101.2384  180.0000  top
+C23       47u                      CP_Radial_D5.0mm_P2.00mm                                                                   218.2150   -97.2884  180.0000  top
+C24       1u                       C_0805_2012Metric                                                                          218.3000  -108.1250  -90.0000  top
+C25       1u                       C_0805_2012Metric                                                                          220.4116  -122.3936  -90.0000  top
+C26       1u                       C_0805_2012Metric                                                                          217.3816  -121.8536    0.0000  top
+C27       47u                      CP_Radial_D5.0mm_P2.00mm                                                                   216.2316  -126.1636    0.0000  top
+C28       100n                     C_0402_1005Metric                                                                          173.9250  -106.2500  -90.0000  top
+C29       1u                       C_0402_1005Metric                                                                          172.7500  -106.2500   90.0000  top
+C30       10n                      C_1206_3216Metric                                                                          224.6150   -87.1750  180.0000  top
+C31       1u                       CP_EIA-3216-18_Kemet-A                                                                     229.2800   -87.1850    0.0000  top
+C32       22u/50V                  CAPC7563X400N                                                                              217.3850   -87.2750    0.0000  top
+C33       22u/10V                  C_1206_3216Metric                                                                          165.6750   -80.4750   90.0000  top
+D1        DDZ9699T-7_              SODFL1608X65N                                                                              220.6400   -80.0750    0.0000  top
+D2        BYV10MX-600PQ            TO-220F-2_Horizontal_TabDown                                                               217.3350   -80.1150   90.0000  top
+J1        PowerIN                  TerminalBlock_MetzConnect_Type011_RT05502HBWC_1x02_P5.00mm_Horizontal                      226.5950   -75.0850  -90.0000  top
+J2        OUT_WIN                  TerminalBlock_MetzConnect_Type011_RT05502HBWC_1x02_P5.00mm_Horizontal                      228.9750  -106.9384   90.0000  top
+J3        ICSP                     PinHeader_1x06_P2.54mm_Vertical                                                            194.1000  -101.8500  -90.0000  top
+J4        CAN                      DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm   151.3700  -109.7850  -90.0000  top
+J5        OUT_DOOR                 TerminalBlock_MetzConnect_Type011_RT05502HBWC_1x02_P5.00mm_Horizontal                      229.1016  -121.0336   90.0000  top
+J6        USART                    DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm   151.3753  -142.0800  -90.0000  top
+J8        RFID_COAX                BNC_TEConnectivity_1478035_Horizontal                                                      163.3800  -163.3150  180.0000  top
+J10       DOOR_LCK                 TerminalBlock_MetzConnect_Type011_RT05502HBWC_1x02_P5.00mm_Horizontal                      196.0000  -162.6600  180.0000  top
+J12       WIN_SW                   TerminalBlock_MetzConnect_Type011_RT05504HBWC_1x04_P5.00mm_Horizontal                      217.7750  -162.6750  180.0000  top
+J14       FINAL_CARRERA_UP         TerminalBlock_MetzConnect_Type011_RT05503HBWC_1x03_P5.00mm_Horizontal                      226.6000  -149.1500  -90.0000  top
+J15       FINAL_CARRERA_DOWN       TerminalBlock_MetzConnect_Type011_RT05503HBWC_1x03_P5.00mm_Horizontal                      226.5750  -132.9000  -90.0000  top
+PS1       P7805-2000R-S            P78032000RS                                                                                168.8750   -76.4350    0.0000  top
+R3        10k                      R_0805_2012Metric                                                                          195.0900   -96.7100  180.0000  top
+R4        1k                       R_0805_2012Metric                                                                          195.0900   -98.9000    0.0000  top
+R5        100k                     R_0805_2012Metric                                                                          213.5100  -103.1809  -90.0000  top
+R6        33k                      R_0805_2012Metric                                                                          215.9000  -108.1000  -90.0000  top
+R7        100k                     R_0805_2012Metric                                                                          213.9916  -117.0336  -90.0000  top
+R8        120                      R_0805_2012Metric                                                                          167.7500  -110.3325   90.0000  top
+R_LDO1    330                      R_0805_2012Metric_Pad1.20x1.40mm_HandSolder                                                153.9304   -88.2068  180.0000  top
+SW1       DOOR_LCK                 SW_CW_GPTS203211B                                                                          185.5000  -166.3600  180.0000  top
+SW3       WIN_SW                   SW_DIP_SPSTx03_Slide_6.7x9.18mm_W8.61mm_P2.54mm_LowProfile                                 176.2630  -132.0800    0.0000  top
+U1        LT1528CT-PBF             LT1528CT#PBF                                                                               152.9043   -85.9471    0.0000  top
+U2        PIC32MK0256MCJ048-I/Y8X  PIC32MK0256MCJ048-I-Y8X_MCH                                                                186.9173  -115.7600  -90.0000  top
+U3        TCAN334D                 TCAN3413DR                                                                                 172.9550  -110.3700  180.0000  top
+U4        MAX22201ATC+             MAX22201ATC_                                                                               217.1368  -104.4434    0.0000  top
+U5        MAX22201ATC+             MAX22201ATC_                                                                               217.4516  -118.5586    0.0000  top
+U6        ~                        DLP-RFID2                                                                                  190.7900  -147.8300  180.0000  top
+Y1        ASZKDV-32.768KHZ-L-T3    ASZKDV_ABR                                                                                 194.2574  -125.6326    0.0000  top
+Y2        ECS-3225SMV-080-GP-TR    OSC_ECS-3225SMV-080-GP-TR                                                                  186.4700  -124.8500   90.0000  top
+## End

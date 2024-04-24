@@ -1745,7 +1745,7 @@
     (effects (font (size 4 4)) (justify left bottom))
     (uuid 60edfc12-6f93-4841-93c8-132d0b8d0a1f)
   )
-  (text "SPI + USART" (at 217.17 137.16 0)
+  (text "USART" (at 217.17 137.16 0)
     (effects (font (size 4 4)) (justify left bottom))
     (uuid 74719446-5ad1-4800-92c3-114753d3f0f5)
   )
